@@ -1,6 +1,6 @@
 Feature: Cadastrar
-	Como usuario
-	Quero enviar os dados
+	Como usuario do site DEMOQA
+	Quero preencher o formulario
 	Para realizar o cadastro
 	
 	Background:  acessar a funcionalidade de cadastro
@@ -10,11 +10,11 @@ Feature: Cadastrar
 		
 				
 		Scenario: Novo cadastro
-			When preencher o campo nome
-			And preencher o campo email
-			And preencher o campo CurrentAddress
-			And preencher o campo permanentAddress
-			And clicar no botao submit
-			Then valido as informacoes
+			When preencher o campo nome "Nilson Brites"
+			And preencher o campo email "nilson.brites@QAdesucesso.com"
+			And preencher o campo CurrentAddress "Vale do Silicio, California, EUA"
+			And preencher o campo permanentAddress "Apple, Vale do Silicio California EUA"
+			And clicar no botao submit 
+			Then valido as informacoes "Name:Nilson Brites Email:nilson.brites@QAdesucesso.com Current Address :Vale do Silicio, California, EUA Permananet Address :Apple, Vale do Silicio California EUA"
 			
 		
