@@ -16,5 +16,3 @@ Feature: Cadastrar
 			And preencher o campo permanentAddress "Apple, Vale do Silicio California EUA"
 			And clicar no botao submit 
 			Then valido as informacoes "Name:Nilson Brites Email:nilson.brites@QAdesucesso.com Current Address :Vale do Silicio, California, EUA Permananet Address :Apple, Vale do Silicio California EUA"
-			
-		
