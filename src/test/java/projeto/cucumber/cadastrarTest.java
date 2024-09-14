@@ -19,7 +19,7 @@ public class cadastrarTest {
 
 	WebDriver driver = new ChromeDriver();
 
-	@Given("que esteja no site: {string}")
+	@Given("que esteja no site {string}")
 	public void que_esteja_no_site(String string) {
 		driver.get("https://demoqa.com/");
 		driver.manage().window().maximize();
